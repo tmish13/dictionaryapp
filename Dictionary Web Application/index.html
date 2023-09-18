@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html Lang= "en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>LookItUp Dictionary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+       <h1 class="h1">Dictionary Application</h1>
+       <div class="input">
+            <input onkeypress="handle(event)" type="text" class="search-field" placeholder="Enter Desired Word">
+       </div>
+
+       <div class="result">
+            <h1 id="word">Hello</h1>
+            <p class="phonetics">/hə'ləʊ/</p>
+            <audio src="//ssl.gstatic.com/dictionary/static/sounds/20200429/hello--_gb_1.mp3" controls></audio>
+            <p class="wordmeaning">Meaning</p>
+            <p class="word-definition">Used as a greeting or to begin a phone conversation.</p>
+            <p class = "wordmeaning">Synonyms</p>
+            <div class="synonyms">
+                
+            </div>
+       </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
